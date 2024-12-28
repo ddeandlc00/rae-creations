@@ -2,100 +2,131 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Hero Section */}
+      <section className=" text-black h-[70vh] flex mt-52 justify-center text-center">
+        <div>
+          <p className="text-md md:text-2xl">Elevate your looks, unleash your beauty</p>
+          <h1 className="text-8xl md:text-9xl font-bold">ONE LASH AT A TIME</h1>
+
+          <div className="mt-5">
+            <button className="btn btn-sm bg-rae-button hover:bg-emerald-900 border-none text-white w-1/4">BOOK NOW</button>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Most Popular Section */}
+      <section className="bg-slate-100 text-black p-5 py-16 md:p-16">
+        <div className="text-center md:text-left">
+          <h1 className="text-4xl font-bold">MOST POPULAR</h1>
+          <p>The most-loved lash styles</p>
+
+          {/* Most Popular Cards */}
+          <div className="mt-5 flex justify-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/1.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Classic Full Set
+                  </h2>
+                  <p className="text-justify">Classic lashes are the perfect way to enhance natural lashes. Its one individual lash is applied to one natural lash to create a set of longer and thicker lashes.</p>
+                </div>
+              </div>
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/2.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Light Volume Full Set
+                  </h2>
+                  <p className="text-justify">Light volume lash extensions are softer, lighter and more natural looking than volume lash extensions. Its perfect for people who wants a subtle natural look.</p>
+                </div>
+              </div>
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/3.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Volume Full Set
+                  </h2>
+                  <p className="text-justify">It is created by fanning several lashes and applying them to a single natural lash. This lash extensions will give you a fuller, fluffy and dramatic look.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Feedbacks */}
+      <section className=" text-black p-5 py-16 md:p-16">
+        <div className="text-center md:text-left">
+          <h1 className="text-4xl font-bold">FEEDBACKS</h1>
+          <p>Loved and trusted by many, see why our customers can’t get enough of their lashes.</p>
+
+          {/* Most Popular Cards */}
+          <div className="mt-5 flex justify-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/1.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Classic Full Set
+                  </h2>
+                  <p className="text-justify">Classic lashes are the perfect way to enhance natural lashes. Its one individual lash is applied to one natural lash to create a set of longer and thicker lashes.</p>
+                </div>
+              </div>
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/2.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Light Volume Full Set
+                  </h2>
+                  <p className="text-justify">Light volume lash extensions are softer, lighter and more natural looking than volume lash extensions. Its perfect for people who wants a subtle natural look.</p>
+                </div>
+              </div>
+
+              <div className="card bg-rae-card text-rae-font w-80">
+                <figure>
+                  <img
+                    src="/lash-models/3.jpg"
+                    alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Volume Full Set
+                  </h2>
+                  <p className="text-justify">It is created by fanning several lashes and applying them to a single natural lash. This lash extensions will give you a fuller, fluffy and dramatic look.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
