@@ -28,9 +28,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/1.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">
@@ -42,9 +45,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/2.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">
@@ -56,9 +62,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/3.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">
@@ -84,9 +93,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/1.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">
@@ -98,9 +110,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/2.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">
@@ -112,9 +127,12 @@ export default function Home() {
 
               <div className="card bg-rae-card text-rae-font w-80">
                 <figure>
-                  <img
+                  <Image
+                    width={450}
+                    height={300}
                     src="/lash-models/3.jpg"
-                    alt="Shoes" />
+                    alt="Shoes"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-2xl">

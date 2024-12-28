@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
 
 const links = [
     { name: 'HOME', href: '/' },
@@ -12,7 +10,6 @@ const links = [
 ];
 
 export default function NavLinksFooter() {
-    const pathname = usePathname();
 
     return (
         <>

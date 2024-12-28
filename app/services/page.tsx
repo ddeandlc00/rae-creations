@@ -23,9 +23,12 @@ export default async function Page() {
 
                         <div className="card bg-rae-card text-rae-font w-96 shadow-md">
                             <figure>
-                                <img
+                                <Image
+                                    width={450}
+                                    height={300}
                                     src="/lash-models/1.jpg"
-                                    alt="Shoes" />
+                                    alt="Shoes"
+                                />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title text-3xl">CLASSIC FULL SET</h2>
@@ -47,33 +50,39 @@ export default async function Page() {
 
                         <div className="card bg-rae-card text-rae-font w-96 shadow-md">
                             <figure>
-                                <img
-                                    src="/lash-models/2.jpg"
-                                    alt="Shoes" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title text-3xl">CLASSIC FULL SET</h2>
-                                <p className="italic text-justify">Classic lashes are the perfect way to enhance natural lashes. Its one individual lash is applied to one natural lash to create a set of longer and thicker lashes.</p>
-                                <div className="card-actions justify-start mt-5">
-                                    <div className="badge badge-outline"> $ 80.00</div>
-                                    <div className="badge badge-outline">
-                                        <Image
-                                            src="/icons/clock.svg"
-                                            width={16}
-                                            height={16}
-                                            alt="Clock Icon"
-                                        // className="mr-2"
-                                        />
-                                        &nbsp; 2 hrs 30 mins</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card bg-rae-card text-rae-font w-96 shadow-md">
-                            <figure>
-                                <img
+                                <Image
+                                    width={450}
+                                    height={300}
                                     src="/lash-models/3.jpg"
-                                    alt="Shoes" />
+                                    alt="Shoes"
+                                />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title text-3xl">CLASSIC FULL SET</h2>
+                                <p className="italic text-justify">Classic lashes are the perfect way to enhance natural lashes. Its one individual lash is applied to one natural lash to create a set of longer and thicker lashes.</p>
+                                <div className="card-actions justify-start mt-5">
+                                    <div className="badge badge-outline"> $ 80.00</div>
+                                    <div className="badge badge-outline">
+                                        <Image
+                                            src="/icons/clock.svg"
+                                            width={16}
+                                            height={16}
+                                            alt="Clock Icon"
+                                        // className="mr-2"
+                                        />
+                                        &nbsp; 2 hrs 30 mins</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card bg-rae-card text-rae-font w-96 shadow-md">
+                            <figure>
+                                <Image
+                                    width={450}
+                                    height={300}
+                                    src="/lash-models/2.jpg"
+                                    alt="Shoes"
+                                />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title text-3xl">CLASSIC FULL SET</h2>
